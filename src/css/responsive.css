@@ -1,0 +1,19 @@
+@media(max-width: 425px){
+    .container{
+        padding: 16px;
+    }
+
+    .container .info{
+        text-align: center;
+        line-height: normal;
+        padding: 10px;
+    }
+
+    .container .info h1, .container .info h2{
+        font-size: 24px;
+    }
+
+    .container .cards{
+        flex-wrap: wrap;
+    }
+}

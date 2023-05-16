@@ -1,0 +1,115 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    background-color: var(--neutral-light);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin-top: 80px;
+    line-height: 50px;
+    letter-spacing: .2px;
+}
+
+.container .info h1{
+    font-size: 3.6rem;
+    font-weight: 200;
+    color: var(--neutral-dark);
+}
+
+.container .info h2{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: var(--neutral-dark);
+}
+
+.container .info p{
+    color: var(--neutral);
+    text-align: center;
+    line-height: normal;
+    letter-spacing: .1px;
+    margin-top: 18px;
+}
+
+.container .cards{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container .cards .card-column{
+    margin: 15px;
+}
+
+.container .cards .card-column .card{
+    background-color: #ffffff;
+    max-width: 350px;
+    max-height: 250px;
+    padding: 28px 32px;
+    border-radius: 8px;
+    box-shadow: rgba(219, 228, 237, 50%) 0 10px 12px 8px;
+}
+
+.container .cards .card-column .card .title{
+    font-size: 2rem;
+    color: var(--neutral-dark);
+}
+
+.container .cards .card-column .card .about{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: var(--neutral);
+}
+
+.container .cards .card-column .card-1{
+    border-top: var(--card-1) 4px solid;
+}
+
+.container .cards .card-column .card-1 .icon{
+    height: 105px;
+    background: url(../images/icon-supervisor.svg) no-repeat bottom right;
+}
+
+.container .cards .card-column .card-2{
+    border-top: var(--card-2) 4px solid;
+    margin-bottom: 30px;
+}
+
+.container .cards .card-column .card-2 .icon{
+    height: 105px;
+    background: url(../images/icon-team-builder.svg) no-repeat bottom right;
+}
+
+.container .cards .card-column .card-3{
+    border-top: var(--card-3) 4px solid;
+}
+
+.container .cards .card-column .card-3 .icon{
+    height: 105px;
+    background: url(../images/icon-karma.svg) no-repeat bottom right;
+}
+
+.container .cards .card-column .card-4{
+    border-top: var(--card-4) 4px solid;
+}
+
+.container .cards .card-column .card-4 .icon{
+    height: 105px;
+    background: url(../images/icon-calculator.svg) no-repeat bottom right;
+}
